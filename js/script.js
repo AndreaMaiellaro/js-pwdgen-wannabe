@@ -10,5 +10,9 @@ console.log(cognome);
 var colore = prompt('Dimmi il tuo colore preferito');
 console.log(colore);
 
+//scritta che appare
+var password;
+password = nome + cognome + colore + 21
+
 //mostrare le variabili
-document.getElementById('password').innerHTML = (nome + cognome + colore + 21);
+document.getElementById('password').innerHTML = (password);
